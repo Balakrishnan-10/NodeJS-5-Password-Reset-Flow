@@ -1,8 +1,8 @@
 # Backend : Password Reset Flow
 
-## Base URL :
+## Base URL : https://nodejs-5-password-reset-flow.onrender.com/
 
-## API Documentation Link : 
+## API Documentation Link : https://documenter.getpostman.com/view/34153837/2sAY547yo8
 
 ## Installing Packages:
 * npm i express
