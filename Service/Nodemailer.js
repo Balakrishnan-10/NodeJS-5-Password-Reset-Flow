@@ -19,7 +19,7 @@ const resetPasswordMail = async (users, token, res) => {
     text:
       "You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n" +
       "Please click on the following link, or paste this into your browser to complete the process:\n\n" +
-      `http://localhost:5173/reset-password/${users._id}/${token}`,
+      `https://react-js-5-password-reset-flow.vercel.app/reset-password/${users._id}/${token}`,
   };
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
